@@ -287,7 +287,7 @@ map = (function () {
         });
 
         gui.map_lines = false;
-        gui.add(gui, 'map_lines').name("map lines").onChange(function(value) {
+        gui.add(gui, 'map_lines').name("map lines inc states").onChange(function(value) {
             toggleLines(value);
         });
 
